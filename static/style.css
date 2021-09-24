@@ -1,5 +1,21 @@
 
 
+/* colour palette */
+
+/* Cloudy
+#AFACA9 */
+
+/* Mexican Red
+#AC2623 */
+
+/* Tuatara
+#2C2C29 */
+
+/* Buttercup
+#EDAC18 */
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -15,14 +31,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.social-icon {
-    display: block;
-    position: fixed;
-    right: 0;
-    top: 50%;
-}
-
-/* .social-icon  */
 
 
 
@@ -31,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .home {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(rgba(123, 70, 70, 0.7), rgba(123, 70, 70, 0.7)), url(images/home-bg.JPG);
     background-position: center;
     background-repeat: no-repeat;
@@ -64,6 +72,25 @@ h1, h2, h3, h4, h5, h6 {
     word-spacing: 2px;
 }
 
+#donate {
+    border: 2px solid rgb(243, 172, 186);
+    color: rgb(243, 172, 186);
+    margin-top: 30%;
+    padding: 12px 42px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+#donate:hover {
+    background-color: #AC2623;
+    color: #eee;
+}
+
+#con-donate {
+    margin: 80px 0px 120px 0;
+}
+
 @media (max-width: 470px) {
     .home .home-content {
         margin-top: -10px;
@@ -71,3 +98,62 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+.footer {
+    background-image: linear-gradient(rgba(123, 70, 70, 0.7), rgba(123, 70, 70, 0.7)), url(images/DSC_7165.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+.footer h1 {
+    color: rgb(243, 172, 186);
+}
+
+.footer .quicklink {
+    list-style-type: none;
+}
+
+.footer .quicklink li {
+    margin: 20px 10px;
+}
+
+#foot-item {
+    color: rgb(243, 172, 186);
+    text-decoration: none;
+    font-size: 18px;
+    transition: 00.4s;
+}
+
+address #foot-item {
+    line-height: 30px;
+}
+
+#addr {
+    color: rgb(243, 172, 186);
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+footer ul li {
+    list-style-type: none;
+    margin: 12px 0;
+}
+
+footer ul li a {
+    color: rgb(243, 172, 186);
+    text-decoration: none;
+    font-size: 28px;
+    transition: 00.4s;
+}
+
+footer ul li a:hover {
+    color: #eee;
+}
+
+.footer .quicklink li a:hover {
+    color: #eee;
+}
